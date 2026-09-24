@@ -571,10 +571,10 @@ export default function GaneshFlorals() {
             <h2>Visit the shop</h2>
             <div className="gf-info-row"><div className="label">Address</div><div className="value">Ganesh Florals, Sanpada, Navi Mumbai – 400705<br /><span style={{ opacity: 0.7, fontSize: 12.5 }}>(shop number &amp; landmark to be added)</span></div></div>
             <div className="gf-info-row"><div className="label">Hours</div><div className="value">Open daily, 7:00 AM – 9:30 PM</div></div>
-            <div className="gf-info-row"><div className="label">Phone</div><div className="value">+91721968463 (WhatsApp orders welcome)</div></div>
+            <div className="gf-info-row"><div className="label">Phone</div><div className="value">+917219768463 (WhatsApp orders welcome)</div></div>
             <div className="gf-info-row"><div className="label">Delivery</div><div className="value">Same-day delivery nearby on orders before 4 PM</div></div>
             <div className="gf-hero-cta" style={{ justifyContent: "flex-start", marginTop: 30, opacity: 1, transform: "none", animation: "none" }}>
-              <a href="https://wa.me/91721968463" className="gf-btn gf-btn-solid">Order on WhatsApp</a>
+              <a href="https://wa.me/917219768463" className="gf-btn gf-btn-solid">Order on WhatsApp</a>
             </div>
           </div>
           <div className={`gf-map gf-reveal ${revealed.v2 ? "in" : ""}`} ref={addReveal("v2")}>
