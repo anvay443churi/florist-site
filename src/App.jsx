@@ -260,8 +260,8 @@ export default function GaneshFlorals() {
         .gf-hero-cta{margin-top:42px;display:flex;gap:18px;flex-wrap:wrap;justify-content:center;
           opacity:0;transform:translateY(16px);animation:gf-rise .9s ease forwards .8s;}
         .gf-btn{padding:15px 34px;border-radius:100px;font-size:14px;display:inline-block;transition:transform .35s ease,background .35s ease,color .35s ease;}
-        .gf-btn-solid{background:var(--gold-soft);color:#FFF8E7;}
-        .gf-btn-solid:hover{transform:translateY(-3px);background:var(--ink);color:var(--bg);}
+        .gf-btn-solid{background:var(--gold-soft);color:#3B2314;font-weight:500;}
+        .gf-btn-solid:hover{transform:translateY(-3px);background:#F4D9A8;color:#5A3A22;}
         .gf-btn-outline{border:1px solid var(--line);}
         .gf-btn-outline:hover{border-color:var(--gold-soft);color:var(--gold-soft);transform:translateY(-3px);}
         .gf-scroll-cue{position:absolute;bottom:30px;left:50%;transform:translateX(-50%);font-size:11px;letter-spacing:.2em;color:var(--ink-dim);
@@ -571,10 +571,10 @@ export default function GaneshFlorals() {
             <h2>Visit the shop</h2>
             <div className="gf-info-row"><div className="label">Address</div><div className="value">Ganesh Florals, Sanpada, Navi Mumbai – 400705<br /><span style={{ opacity: 0.7, fontSize: 12.5 }}>(shop number &amp; landmark to be added)</span></div></div>
             <div className="gf-info-row"><div className="label">Hours</div><div className="value">Open daily, 7:00 AM – 9:30 PM</div></div>
-            <div className="gf-info-row"><div className="label">Phone</div><div className="value">+91 00000 00000 (WhatsApp orders welcome)</div></div>
+            <div className="gf-info-row"><div className="label">Phone</div><div className="value">+91721968463 (WhatsApp orders welcome)</div></div>
             <div className="gf-info-row"><div className="label">Delivery</div><div className="value">Same-day delivery nearby on orders before 4 PM</div></div>
             <div className="gf-hero-cta" style={{ justifyContent: "flex-start", marginTop: 30, opacity: 1, transform: "none", animation: "none" }}>
-              <a href="https://wa.me/910000000000" className="gf-btn gf-btn-solid">Order on WhatsApp</a>
+              <a href="https://wa.me/91721968463" className="gf-btn gf-btn-solid">Order on WhatsApp</a>
             </div>
           </div>
           <div className={`gf-map gf-reveal ${revealed.v2 ? "in" : ""}`} ref={addReveal("v2")}>
@@ -598,4 +598,3 @@ export default function GaneshFlorals() {
     </div>
   );
 }
-
